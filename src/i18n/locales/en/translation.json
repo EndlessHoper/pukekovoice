@@ -87,7 +87,7 @@
     },
     "permissions": {
       "title": "Permissions Required",
-      "description": "Handy needs a couple of permissions to work properly.",
+      "description": "Pukeko needs a couple of permissions to listen and paste text back into your apps.",
       "microphone": {
         "title": "Microphone Access",
         "description": "Required to hear your voice for transcription."

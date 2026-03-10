@@ -231,7 +231,7 @@ const AccessibilityOnboarding: React.FC<AccessibilityOnboardingProps> = ({
   return (
     <div className="h-screen w-screen flex flex-col p-6 gap-6 items-center justify-center">
       <div className="flex flex-col items-center gap-2">
-        <HandyTextLogo width={200} />
+        <HandyTextLogo width={118} />
       </div>
 
       <div className="max-w-md w-full flex flex-col items-center gap-4">
@@ -245,9 +245,9 @@ const AccessibilityOnboarding: React.FC<AccessibilityOnboardingProps> = ({
         </div>
 
         {/* Microphone Permission Card */}
-        <div className="w-full p-4 rounded-lg bg-white/5 border border-mid-gray/20">
+        <div className="w-full p-4 rounded-lg bg-background border border-mid-gray/20 shadow-sm">
           <div className="flex items-center gap-4">
-            <div className="p-3 rounded-full bg-logo-primary/20 shrink-0">
+            <div className="p-3 rounded-full bg-logo-primary/10 shrink-0">
               <Mic className="w-6 h-6 text-logo-primary" />
             </div>
             <div className="flex-1 min-w-0">
@@ -280,9 +280,9 @@ const AccessibilityOnboarding: React.FC<AccessibilityOnboardingProps> = ({
         </div>
 
         {/* Accessibility Permission Card */}
-        <div className="w-full p-4 rounded-lg bg-white/5 border border-mid-gray/20">
+        <div className="w-full p-4 rounded-lg bg-background border border-mid-gray/20 shadow-sm">
           <div className="flex items-center gap-4">
-            <div className="p-3 rounded-full bg-logo-primary/20 shrink-0">
+            <div className="p-3 rounded-full bg-logo-primary/10 shrink-0">
               <Keyboard className="w-6 h-6 text-logo-primary" />
             </div>
             <div className="flex-1 min-w-0">
